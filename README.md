@@ -1,6 +1,6 @@
 # 🧠 Implementing a Perceptron and Custom Neural Network on Japanese MNIST dataset.
--------------------------------------------
-## Overview
+
+## ✔️ Overview
 This project is divided into two parts:
 1. Part A: Perceptron from Scratch (Using NumPy)
 * Implement a simple perceptron model from scratch.
@@ -31,12 +31,12 @@ pip install numpy pandas torch torchvision matplotlib
 ## 📊 Results
 
 #### Part A: 
-... Forward and backpropagation implemented correctly.
+⋅⋅⋅Forward and backpropagation implemented correctly.
 
 #### Part B: 
-... Experiment 3, employing the SGD optimizer with momentum=0.9, a learning
+⋅⋅⋅Experiment 3, employing _the SGD optimizer with momentum=0.9, a learning
 rate of 0.001, and weight decay=0.001, along with two hidden layers sized 256 and
-128, and a dropout rate of 0.1, yielded the most promising accuracy results at 90.09%.
+128, and a dropout rate of 0.1_, yielded the most promising accuracy results at 90.09%.
 
 In addition, The neural network architecture of each experiment is represented in the table below:
 | Experiment | Optimizer | Learning Rate | Weight Decay | Input Size | Hidden Size       | Number of Classes | Dropout Rate | ReLU (Times) |
