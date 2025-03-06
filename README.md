@@ -31,10 +31,10 @@ pip install numpy pandas torch torchvision matplotlib
 ## 📊 Results
 
 #### Part A: 
-⋅⋅⋅ Forward and backpropagation implemented correctly.
+Forward and backpropagation implemented correctly.
 
 #### Part B: 
-⋅⋅⋅ Experiment 3, employing _the SGD optimizer with momentum=0.9, a learning
+Experiment 3, employing _the SGD optimizer with momentum=0.9, a learning
 rate of 0.001, and weight decay=0.001, along with two hidden layers sized 256 and
 128, and a dropout rate of 0.1_, yielded the most promising accuracy results at 90.09%.
 
