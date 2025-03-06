@@ -22,13 +22,6 @@ This project is divided into two parts:
 * __Part A__: Small dataset with 3 features.
 * __Part B__: Japanese MNIST dataset (Hiragana characters, 70,000 images).
 
-## 🔧 Installation
-
-To set up the environment, install dependencies:
-```python
-pip install numpy pandas torch torchvision matplotlib
-```
-
 ## 📊 Results
 
 #### [Part A:](Assignment1-partA-14337188.ipynb) 
@@ -49,6 +42,7 @@ In addition, The neural network architecture of each experiment is represented i
 
 Plots and model evaluations included in the notebook.
 
+---
 ## 🤝 Acknowledgments
 
 Thanks to the course instructors for providing the assignment template and guidance!
