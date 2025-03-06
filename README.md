@@ -1,4 +1,5 @@
 # 🧠 Implementing a Perceptron and Custom Neural Network on Japanese MNIST dataset.🧠
+_Author: Thirada Tiamklang_
 
 ## ✔️ Overview
 This project is divided into two parts:
