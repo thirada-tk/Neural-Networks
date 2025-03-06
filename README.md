@@ -1,5 +1,5 @@
 # 🧠 Implementing a Perceptron and Custom Neural Network on Japanese MNIST dataset.
-----------------------------------------------------------------------------------
+-------------------------------------------
 ## Overview
 This project is divided into two parts:
 1. Part A: Perceptron from Scratch (Using NumPy)
@@ -28,42 +28,26 @@ To set up the environment, install dependencies:
 pip install numpy pandas torch torchvision matplotlib
 ```
 
-## 🚀 Usage
+## 📊 Results
 
-#### Part A (Perceptron with NumPy)
+#### Part A: 
+... Forward and backpropagation implemented correctly.
 
-Open notebooks/perceptron_numpy.ipynb in Jupyter Notebook.
+#### Part B: 
+... Experiment 3, employing the SGD optimizer with momentum=0.9, a learning
+rate of 0.001, and weight decay=0.001, along with two hidden layers sized 256 and
+128, and a dropout rate of 0.1, yielded the most promising accuracy results at 90.09%.
 
-Implement missing parts marked with TODO.
-
-Run the notebook to train the perceptron model.
-
-#### Part B (Neural Network with PyTorch)
-
-Open notebooks/neural_net_pytorch.ipynb.
-
-Implement missing parts (marked with TODO).
-
-Run experiments to achieve 80% accuracy with minimal overfitting.
-
-📊 Results
-
-Part A: Forward and backpropagation implemented correctly.
-
-Part B: Final accuracy and loss metrics.
+In addition, The neural network architecture of each experiment is represented in the table below:
+| Experiment | Optimizer | Learning Rate | Weight Decay | Input Size | Hidden Size       | Number of Classes | Dropout Rate | ReLU (Times) |
+|------------|-----------|---------------|--------------|------------|-------------------|------------------|--------------|--------------|
+| 1          | Adam      | 0.0001        | 0.001        | 784        | 128               | 10               | 0.5          | 1            |
+| 2          | Adam      | 0.0001        | 0.001        | 784        | 128               | 10               | 0.1          | 1            |
+| 3          | SGD (momentum=0.9) | 0.001 | 0.001        | 784        | 256,128           | 10               | 0.1          | 2            |
+| 4          | SGD (momentum=0.9) | 0.001 | 0.001        | 784        | 512,256,128       | 10               | 0.1          | 3            |
 
 Plots and model evaluations included in the notebook.
 
-📌 Notes
-
-Assertions are included to validate outputs. If no errors occur, the implementation is correct.
-
-Ensure models are not overfitting while achieving the required accuracy.
-
-📖 References
-
-Japanese MNIST Dataset: Dataset Link (if available)
-
-🤝 Acknowledgments
+## 🤝 Acknowledgments
 
 Thanks to the course instructors for providing the assignment template and guidance!
