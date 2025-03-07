@@ -24,7 +24,7 @@ This project is divided into two parts:
 
 ## 📊 Results
 
-#### [Part A:](Assignment1-partA-14337188.ipynb) 
+#### [Part A:](Perceptron from scratch.ipynb) 
 Forward and backpropagation implemented correctly.
 
 #### [Part B:](Assignment1-partB-14337188.ipynb) 
